@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato | Meu Ecommerce</title>
+    <link rel="stylesheet" href="stylescontact.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">início</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="contact-section">
+            <h1>Contato</h1>
+            <p>Fale conosco!</p>
+            <form id="contact-form">
+                <label for="name">Nome</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Mensagem</label>
+                <textarea type="message" name="message" required></textarea>
+                <button type="submit" id="submit">Enviar</button>
+            </form>
+            <div class="contact-info">
+                <h2>Informações de Contato</h2>
+                <p>Endereço: Rua dos cantos, 567 - Chapecó - SC</p>
+                <p>Telefone: (11) 1234-5678</p>
+                <p>Email: contato@ecommerce.com.br</p>
+                <p>Horário de Atendimento: 24h</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Erik Fiorini</p>
+    </footer>
+
+    <script src="scriptcontact.js"></script>
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slideout/1.0.1/slideout.min.js"></script>
+    <link rel="stylesheet" href="https//cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.js">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+    <div class="menu" id="menu">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Sobre</a></li>
+            <li><a href="#">Produtos</a></li>
+            <li><a href="indexcontato.html">Contato</a></li>
+        </ul>
+    </div>
+    <div class="content" id="content">
+        <div class="toggle-button" id="toggle-button">Saiba mais</div>
+    </div>
+    <main>
+        <section class="hero">
+            <h1>Seja bem-vindo ao nosso mercado digital com JavaScript</h1>
+            <h2>Mercado Fiorini</h2>
+        </section>
+
+        <section class="products">
+            <h2>Produtos à pronta entrega!</h2>
+            <div class="product-grid">
+                <!-- Produtos serão inseridos pelo JavaScript -->
+            </div>
+        </section>
+
+        <section class="cart">
+            <h2>Carrinho de compras</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Produto</th>
+                        <th>Quantidade</th>
+                        <th>Preço</th>
+                        <th>Subtotal</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Itens do carrinho serão inseridos pelo JavaScript -->
+                </tbody>
+            </table>
+            <p>Total: <span id="total">R$0.00</span></p>
+            <button id="checkout">Pagar</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Erik Fiorini</p>
+    </footer>
+</body>
+</html>
